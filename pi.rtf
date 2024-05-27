@@ -1,7 +1,7 @@
 1. Requirements
-	•	User Roles: Admin, SuperAdmin, Guest
-	•	Functionalities:
-	•	View list of users
+	• User Roles: Admin, SuperAdmin, Guest
+	• Functionalities:
+ 	•	View list of users
 	•	Add new user
 	•	Edit existing user details
 	•	Enable/Disable user
@@ -9,12 +9,12 @@
 	•	Hide disabled users
 
 2. UI Components
-	1	Header
+	1-Header
 	•	Save User Button: Positioned on the top-right corner, allows saving the user details.
-	2	Toolbar
+	2-Toolbar
 	•	New User Button: Positioned on the top-left corner, opens a form to add a new user.
 	•	Hide Disabled User Checkbox: Positioned next to the New User Button, allows hiding/showing disabled users.
-	3	User Table
+	3-User Table
 	•	Columns: ID, User Name, Email, Enabled
 	•	Rows: Displays the list of users with the following details:
 	•	ID: Unique identifier for the user.
@@ -23,7 +23,7 @@
 	•	Enabled: Indicates whether the user is enabled (true/false).
 	•	Sorting: Columns should be sortable.
 	•	Filtering: Enabled column should have a filter option.
-	4	User Form
+	4-User Form
 	•	Fields:
 	•	Username (Text Input)
 	•	Display Name (Text Input)
@@ -35,24 +35,24 @@
 	•	Save User: Saves the user details.
 
 3. Page Behaviors
-	1	Initial Display
+	1-Initial Display
 	•	On initial load, the page displays the user table with a list of users.
 	•	The "Hide Disabled User" checkbox is unchecked by default, showing all users.
 	•	The table is sorted by User Name in ascending order by default.
-	2	Add New User
+	2-Add New User
 	•	Clicking the "New User" button opens the user form on the right.
 	•	User can fill in the details and select roles from the dropdown.
 	•	Clicking "Save User" saves the new user and updates the user table.
-	3	Edit User
+	3-Edit User
 	•	Clicking on a row in the user table populates the form with that user's details.
 	•	User can edit the details and click "Save User" to update the information.
 	•	The user table reflects the updated details after saving.
-	4	Enable/Disable User
+	4-Enable/Disable User
 	•	The "Enabled" checkbox in the user form allows toggling the user's enabled status.
 	•	Users with the "Enabled" status set to false are considered disabled.
-	5	Hide Disabled Users
+	5-Hide Disabled Users
 	•	Checking the "Hide Disabled User" checkbox filters out disabled users from the table.
 	•	Unchecking the checkbox shows all users, including disabled ones.
-	6	Sorting and Filtering
+	6-Sorting and Filtering
 	•	Users can click on column headers to sort the table by that column.
 	•	Users can filter the "Enabled" column to show only enabled or disabled users.
